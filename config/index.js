@@ -22,14 +22,14 @@ export default {
     "sewing pattern"
   ],
   optionGroups: {
-    fit: ["size"]
+    fit: []
   },
-  measurements: [],
+  measurements: ["shoulder","bustRound","waistRound","bustSpan"],
   dependencies: {},
   inject: {},
   hide: [],
-  parts: ["box"],
+  parts: ["front"],
   options: {
-    size: { pct: 50, min: 10, max: 100 }
+    
   }
 };
