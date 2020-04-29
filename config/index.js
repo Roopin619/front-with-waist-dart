@@ -24,12 +24,10 @@ export default {
   optionGroups: {
     fit: []
   },
-  measurements: ["shoulder","bustRound","waistRound","bustSpan"],
+  measurements: ["shoulderToShoulder","chestCircumference","naturalWaist","bustSpan","topToWaist"],
   dependencies: {},
   inject: {},
   hide: [],
   parts: ["front"],
-  options: {
-    
-  }
+  options: {}
 };
