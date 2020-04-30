@@ -22,12 +22,22 @@ export default {
     "sewing pattern"
   ],
   optionGroups: {
-    fit: []
+    waistdart: ["waistdartwidth", "waistdartlength"]
   },
-  measurements: ["shoulderToShoulder","chestCircumference","naturalWaist","bustSpan","topToWaist"],
+  measurements: [
+    "shoulderToShoulder",
+    "highBust",
+    "naturalWaist",
+    "bustSpan",
+    "topToWaist",
+    "naturalWaistToUnderarm"
+  ],
   dependencies: {},
   inject: {},
   hide: [],
   parts: ["front"],
-  options: {}
+  options: {
+    waistdartwidth: { mm: 25.4, min: 0, max: 50.8 },
+    waistdartlength: { mm: 0, min: -101.6, max: 101.6}
+  }
 };
